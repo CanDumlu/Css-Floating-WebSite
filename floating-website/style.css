@@ -1,0 +1,138 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+main{
+    margin-top: 10px;
+}
+::selection{
+    background-color:#404258;
+    color:#D8D8D8;
+}
+#main-header{
+    background-color:#404258;
+}
+#logo{
+    color:#D8D8D8;
+    display:inline-block;
+    padding: 10px;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+}
+.main-nav{
+    display:inline-block;
+    width:calc(100% - 138px);
+}
+.main-nav ul{
+   list-style:none;
+   text-align:right;
+}
+.main-nav li{
+    display:inline-block;
+    padding:20px;
+}
+.main-nav a{
+    color:#D8D8D8;
+    text-decoration:none;
+}
+.main-nav a:hover{
+    color:lightgreen;
+}
+.menu-nav{
+    background-color:#D8D8D8;
+    width:25%;
+}
+.menu-nav ul{
+    list-style:none;
+    text-align: center;
+}
+.menu-nav li{
+    background-color:#404258;
+    margin:10px;
+    padding:10px;
+}
+.menu-nav li:hover{
+    background-color:#474E68;
+    cursor:pointer;
+}
+.menu-nav a{
+    text-decoration:none;
+    color:#D8D8D8;
+}
+.show-bar{
+    background-color:white;
+    width:75%;
+    padding:10px;
+}
+.col{
+    float:left;
+}
+footer{
+    background-color:#404258;
+}
+.footer-nav{
+    padding:50px;
+}
+.left{
+    width:25%;
+    color:#D8D8D8;
+    padding: 10px;
+    margin-top: 20px;
+}
+.right{
+    width:75%;
+    text-align:right;
+}
+.left a{
+    text-decoration:none;
+    color:#D8D8D8;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.footer-nav a{
+    text-decoration:none;
+    margin: 10px;
+}
+.footer-nav i:hover{
+    color:lightgreen;
+}
+i{
+    color:#D8D8D8;
+}
+.show-card{
+    background-color:#6B728E;
+   margin: 20px;
+    padding:10px;
+}
+.card-left-1{
+    width:25%;
+    height:150px;
+    background-image:url(images/img-1.jpg);
+    background-size:cover;
+    background-position:top center;
+}
+.card-left-2{
+    width:25%;
+    height:150px;
+    background-image:url(images/img-2.jpg);
+    background-size:cover;
+    background-position:top center;
+}
+.card-left-3{
+    width:25%;
+    height:150px;
+    background-image:url(images/img-3.jpg);
+    background-size:cover;
+    background-position:top center;
+}
+.card-right{
+    width: 75%;
+    color: #D8D8D8;
+    padding: 20px;
+}
+ 
